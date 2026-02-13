@@ -280,13 +280,13 @@
             <span id="typewriter-text"></span><span class="cursor"></span>
         </div>
         <button class="btn" id="letter-next-btn" style="opacity: 0; pointer-events: none;"
-            onclick="nextScreen('screen-proposal')">One Last Thing...</button>
+            onclick="nextScreen('screen-proposal')">Үргэлжлүүлэх...</button>
     </div>
 
     <!-- Screen 4: Proposal -->
     <div class="container" id="screen-proposal">
         <h1>Will You Be My Valentine? 🌹</h1>
-        <p>You are my sunshine, my joy, and my everything.</p>
+     
         <div class="proposal-btns">
             <button class="btn" id="yesBtn" onclick="acceptProposal()">YES! 😍</button>
             <button class="btn" id="noBtn" onmouseover="dodgeButton()" ontouchstart="dodgeButton()">No 😢</button>
@@ -396,9 +396,8 @@
         function dodgeButton() {
             const btn = document.getElementById('noBtn');
             const phrases = [
-                "No 😢", "Are you sure?", "Really?", "Think again!",
-                "Don't break my heart 💔", "Please? 🥺", "Last chance!",
-                "You can't say no!", "I'll give you cookies 🍪", "But I love you! ❤️"
+                "Энэ дээр дарж болкууу", "Чи үнэхээр итгэлтэй байна уу?", "Нээрэнгээсээ?", "Дахиад бодоорой",
+               
             ];
 
             // Move button
